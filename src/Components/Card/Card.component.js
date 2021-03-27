@@ -1,7 +1,7 @@
 import React from "react";
 import "./Card.styles.css";
 
-export const Car = (props) => (
+const Card = (props) => (
   <div className="card-container">
     <img
       alt="monster"
@@ -11,3 +11,5 @@ export const Car = (props) => (
     <p>{props.monster.email}</p>
   </div>
 );
+
+export default Card;
